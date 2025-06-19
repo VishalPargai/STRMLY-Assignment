@@ -145,14 +145,30 @@
 }
 
 @media (max-width: 480px) {
+  .video-player {
+    width: 90vw;
+    height: 70vh;
+    max-width: none;
+    border-radius: 10px;
+  }
+
+  .video-overlay {
+    max-width: 90vw;
+  }
+
+  .bottom-nav-wrapper {
+    max-width: 90vw;
+    padding: 5px 0;
+  }
+
   .left-section {
     bottom: 70px;
-    font-size: 0.9rem;
+    left: 8px;
   }
 
   .right-section {
     bottom: 70px;
-    gap: 0.25rem;
+    right: 8px;
   }
 
   .icon-btn {
@@ -161,11 +177,16 @@
 
   .follow-btn {
     font-size: 0.75rem;
-    padding: 3px 8px;
+    padding: 3px 6px;
+  }
+
+  .title {
+    font-size: 0.9rem;
   }
 
   .description {
-    font-size: 0.85rem;
-    width: 100%;
+    font-size: 0.8rem;
+    width: 85%;
   }
 }
+
