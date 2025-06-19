@@ -48,6 +48,8 @@
   font-weight: bold;
   color: white;
   font-size: 1rem;
+ position: relative;
+
 }
 
 .creator-row {
@@ -56,6 +58,8 @@
   gap: 8px;
   color: white;
   flex-wrap: wrap;
+  position: relative;
+
 }
 
 .follow-btn {
@@ -67,6 +71,8 @@
   font-size: 0.9rem;
   background-color: #ff4141;
   color: white;
+    position: relative;
+
 }
 
 .title {
@@ -74,14 +80,18 @@
   font-weight: bold;
   color: white;
   font-size: 1rem;
+    position: relative;
+
 }
 
 .episode {
   font-size: 0.85rem;
   color: white;
+  position: relative;
 }
 
 .description {
+  position: relative;
   overflow: hidden;
   font-size: 0.9rem;
   width: 90%;
@@ -146,18 +156,18 @@
 
 @media (max-width: 480px) {
   .video-player {
-    width: 90vw;
+    width: 70vw;
     height: 70vh;
     max-width: none;
     border-radius: 10px;
   }
 
   .video-overlay {
-    max-width: 90vw;
+    max-width: 70vw;
   }
 
   .bottom-nav-wrapper {
-    max-width: 90vw;
+    max-width: 70vw;
     padding: 5px 0;
   }
 
@@ -167,7 +177,7 @@
   }
 
   .right-section {
-    bottom: 70px;
+    bottom: 150px;
     right: 8px;
   }
 
@@ -178,15 +188,24 @@
   .follow-btn {
     font-size: 0.75rem;
     padding: 3px 6px;
+    /* bottom: 100px; */
   }
 
   .title {
     font-size: 0.9rem;
+    bottom: 100px;
   }
 
   .description {
     font-size: 0.8rem;
     width: 85%;
+    bottom: 100px;
+  }
+  .hashtag{
+        bottom: 100px;
+  }
+  .creator-row {
+    bottom: 100px;;
   }
 }
 
