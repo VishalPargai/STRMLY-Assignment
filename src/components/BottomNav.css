@@ -1,0 +1,37 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  z-index: 100;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-item p {
+  margin: 0;
+  font-size: 0.6rem;
+}
+
+.nav-item.add {
+    position: relative;
+    top: 10px;
+    color: rgb(255, 251, 251);
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    border-radius: 50%;
+    transform: translateY(-12px);
+    font-size: 1.2rem;
+}
